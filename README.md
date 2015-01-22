@@ -36,7 +36,7 @@ There are a few errors in the tutorial that might take quite a bit of time to de
       * `spring-webmvc.jar`
       * `spring.jar`
       * `servlet-api.jar`
-      * `jsp-api.jar` (from the spring framework directory)
+      * `jsp-api.jar`
 3. Modify the `tomcat` classpath in `build.xml` to fix class definition errors:
 ```
     <path id="catalina-ant-classpath">
