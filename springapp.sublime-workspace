@@ -7,6 +7,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "war/WEB-INF/applicationContext.xml",
+			"settings":
+			{
+				"buffer_size": 2218,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "Packages/Java/Ant.sublime-build",
 	"command_palette":
@@ -60,10 +68,12 @@
 	},
 	"file_history":
 	[
-		"/C/Users/Westley.mojica/Documents/GitHub/springapp/test/springapp/repository/InMemoryProductDao.java",
-		"/C/Users/Westley.mojica/Documents/GitHub/springapp/src/springapp/service/SimpleProductManager.java",
+		"/C/Users/Westley.mojica/Documents/GitHub/springapp/war/WEB-INF/applicationContext.xml",
 		"/C/Users/Westley.mojica/Documents/GitHub/springapp/war/WEB-INF/springapp-servlet.xml",
+		"/C/Users/Westley.mojica/Documents/GitHub/springapp/src/springapp/service/SimpleProductManager.java",
 		"/C/Users/Westley.mojica/Documents/GitHub/springapp/test/springapp/web/InventoryControllerTests.java",
+		"/C/Users/Westley.mojica/Documents/GitHub/springapp/war/WEB-INF/web.xml",
+		"/C/Users/Westley.mojica/Documents/GitHub/springapp/test/springapp/repository/InMemoryProductDao.java",
 		"/C/Users/Westley.mojica/Documents/GitHub/springapp/test/springapp/service/SimpleProductManagerTests.java",
 		"/C/Users/Westley.mojica/Projects/springapp/src/springapp/service/SimpleProductManager.java",
 		"/C/Users/Westley.mojica/Projects/springapp/test/springapp/repository/InMemoryProductDao.java",
@@ -185,9 +195,7 @@
 		"/C/Users/Westley.mojica/Documents/GitHub/glidesu.github.io/_config.yml",
 		"/C/Users/Westley.mojica/Documents/GitHub/glidesu.github.io/_drafts/playbook",
 		"/C/Users/Westley.mojica/Documents/GitHub/glidesu.github.io/_posts/2014-07-15-end_of_evo2014.markdown",
-		"/C/Users/Westley.mojica/Documents/GitHub/glidesu.github.io/_posts/2014-06-10-playbook.markdown",
-		"/C/Users/Westley.mojica/Documents/GitHub/glidesu.github.io/index.html",
-		"/C/Users/Westley.mojica/Documents/workspace-sts-3.3.0.RELEASE/myGame/src/myGame/Options.java"
+		"/C/Users/Westley.mojica/Documents/GitHub/glidesu.github.io/_posts/2014-06-10-playbook.markdown"
 	],
 	"find":
 	{
@@ -198,6 +206,8 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"C:\\Users\\Westley.mojica\\Documents\\GitHub\\springapp",
+			"C:\\Users\\Westley.mojica\\Documents\\GitHub\\springapp\\src\\repository",
 			"C:\\Users\\Westley.mojica\\Projects\\springapp",
 			""
 		]
@@ -207,6 +217,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"tomcat",
 			"repository",
 			"HelloController",
 			"InventoryController",
@@ -256,8 +267,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "war/WEB-INF/applicationContext.xml",
+					"settings":
+					{
+						"buffer_size": 2218,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2218,
+								2218
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
