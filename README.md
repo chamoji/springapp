@@ -44,8 +44,8 @@ There are a few errors in the tutorial that might take quite a bit of time to de
 
 #### Java dependencies
 Your build path should include all `.jar` files the tutorial depends on:
-	* `commons-logging.jar`
-	* `spring-webmvc.jar`
-	* `spring.jar`
-	* `servlet-api.jar`
-	* `jsp-api.jar` (from the spring framework directory)
+* `commons-logging.jar`
+* `spring-webmvc.jar`
+* `spring.jar`
+* `servlet-api.jar`
+* `jsp-api.jar` (from the spring framework directory)
