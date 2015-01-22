@@ -19,8 +19,8 @@ https://github.com/chamoji/springapp
 6. Done. The web application is now live! 
 
 ### Notes about the step-by-step Tutorial
-*In Chapter 4, there is an extraneous `<beans>` tag in the `springapp-servlet.xml` snippet.
-*In Chapter 5, add these import statements in `JdbcProductTests.java` to resolve compilation errors:
+* In Chapter 4, there is an extraneous `<beans>` tag in the `springapp-servlet.xml` snippet.
+* In Chapter 5, add these import statements in `JdbcProductTests.java` to resolve compilation errors:
 ```
       import org.springframework.test.AbstractTransactionalDataSourceSpringContextTests;
       import springapp.domain.Product;
@@ -32,11 +32,11 @@ There are a few errors in the tutorial that might take quite a bit of time to de
 
 1. `InstallTask` is a deprecated method. Use `DeployTask` instead to fix `ant` build problems.
 2. Your build path should include all `.jar` files the tutorial depends on:
-      *`commons-logging.jar`
-      *`spring-webmvc.jar`
-      *`spring.jar`
-      *`servlet-api.jar`
-      *`jsp-api.jar` (from the spring framework directory)
+      * `commons-logging.jar`
+      * `spring-webmvc.jar`
+      * `spring.jar`
+      * `servlet-api.jar`
+      * `jsp-api.jar` (from the spring framework directory)
 3. Modify the `tomcat` classpath in `build.xml` to fix class definition errors:
 ```
     <path id="catalina-ant-classpath">
