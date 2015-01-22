@@ -15,11 +15,12 @@ There are a few errors in the tutorial that might take quite a bit of time to de
 
 1.  In Chapter 4, there is an extraneous "<beans>" tag in the "springapp-servlet.xml" snippet.
 2.  In Chapter 5, add these import statements in "JdbcProductTests.java" to resolve compilation errors:
+
       import org.springframework.test.AbstractTransactionalDataSourceSpringContextTests;
       import springapp.domain.Product;
+
 3.  [Ant] InstallTask is a deprecated method. Use DeployTask instead to fix Ant build problems.
 4.  [Tomcat] Modify the Tomcat classpath in build.xml to fix class definition errors:
-
     <path id="catalina-ant-classpath">
         <!-- We need the Catalina jars for Tomcat -->
         <!--  * for other app servers - check the docs --> 
