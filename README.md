@@ -31,12 +31,14 @@ https://github.com/chamoji/springapp
 There are a few errors in the tutorial that might take quite a bit of time to debug. Please take a look at the following list to see if you are running into similar problems:
 
 1. `InstallTask` is a deprecated method. Use `DeployTask` instead to fix `ant` build problems.
+
 2. Your build path should include all `.jar` files the tutorial depends on:
       * `commons-logging.jar`
       * `spring-webmvc.jar`
       * `spring.jar`
       * `servlet-api.jar`
       * `jsp-api.jar`
+
 3. Modify the `tomcat` classpath in `build.xml` to fix class definition errors:
 ```
     <path id="catalina-ant-classpath">
