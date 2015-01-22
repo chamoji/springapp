@@ -10,7 +10,16 @@ I successfully restarted the tutorial and have used version control from start t
 See the git repository for the finished project. Feel free to clone this repo at your leisure.
 https://github.com/chamoji/springapp
 
-### Troubleshooting Errors
+### Notes about the step-by-step Tutorial
+1. In Chapter 4, there is an extraneous `<beans>` tag in the `springapp-servlet.xml` snippet.
+2. In Chapter 5, add these import statements in `JdbcProductTests.java` to resolve compilation errors:
+```
+      import org.springframework.test.AbstractTransactionalDataSourceSpringContextTests;
+      import springapp.domain.Product;
+```
+
+
+### Other Errors
 There are a few errors in the tutorial that might take quite a bit of time to debug. Please take a look at the following list to see if you are running into similar problems:
 
 1. `InstallTask` is a deprecated method. Use `DeployTask` instead to fix `ant` build problems.
@@ -34,10 +43,4 @@ There are a few errors in the tutorial that might take quite a bit of time to de
                     <include name="tomcat-juli.jar"/>
         </fileset>
     </path>
-```
-4. In Chapter 4, there is an extraneous `<beans>` tag in the `springapp-servlet.xml` snippet.
-5. In Chapter 5, add these import statements in `JdbcProductTests.java` to resolve compilation errors:
-```
-      import org.springframework.test.AbstractTransactionalDataSourceSpringContextTests;
-      import springapp.domain.Product;
 ```
