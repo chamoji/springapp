@@ -1,6 +1,3 @@
-<!--- References -->
-[ch4-err]: https://www.evernote.com/shard/s370/nl/65975370/6606cbe4-7623-4a31-98b5-e16385876839/res/1574f0d1-41f1-4cea-a0cc-0657f7d8fece.png?resizeSmall&width=832 "Chapter 4 Error"
-<!--- End of References -->
 # Spring MVC Step-by-step Tutorial
 
 ## Spring MVC Tutorial - Link
@@ -58,3 +55,4 @@ There are a few errors in the tutorial that might take quite a bit of time to de
         </fileset>
     </path>
 ```
+[ch4-err]: https://www.evernote.com/shard/s370/nl/65975370/6606cbe4-7623-4a31-98b5-e16385876839/res/1574f0d1-41f1-4cea-a0cc-0657f7d8fece.png "Chapter 4 Error"
