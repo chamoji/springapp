@@ -1,16 +1,15 @@
-#Spring MVC Step-by-step Tutorial
+# Spring MVC Step-by-step Tutorial
 
-Spring MVC Tutorial
+## Spring MVC Tutorial - Link
 http://docs.spring.io/docs/Spring-MVC-step-by-step/
 
-##Updates
-###Completed the project!
-I successfully restarted the tutorial and have used version control from start to finish.
+## Updates
+### Completed the project!
+I successfully restarted the tutorial and have used version control from start to finish. See the git repository for the finished project.
 
-See the git repository for the finished project. Feel free to clone this repo at your leisure.
 https://github.com/chamoji/springapp
 
-##Running springapp
+## Running springapp
 1. `ant build deploy`
 2. Start your tomcat webserver (`<tomcat.path>/bin/startup.bat`)
 3. Execute `ant list` to confirm your application was picked-up by tomcat.
