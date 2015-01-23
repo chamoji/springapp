@@ -20,7 +20,7 @@ https://github.com/chamoji/springapp
 ### Notes about the step-by-step Tutorial
 * In Chapter 4, there is an extraneous `<beans>` tag in the `springapp-servlet.xml` snippet.
 
-![Error in Chapter 4 <beans> tag][ch4-err]
+![ch4-err](./err_ch4.png)
 
 * In Chapter 5, add these import statements in `JdbcProductTests.java` to resolve compilation errors:
 ```
