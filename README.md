@@ -1,3 +1,6 @@
+<!--- References -->
+[ch4-err]: https://www.evernote.com/shard/s370/nl/65975370/6606cbe4-7623-4a31-98b5-e16385876839/res/1574f0d1-41f1-4cea-a0cc-0657f7d8fece.png?resizeSmall&width=832 "Chapter 4 Error"
+<!--- End of References -->
 # Spring MVC Step-by-step Tutorial
 
 ## Spring MVC Tutorial - Link
@@ -19,12 +22,14 @@ https://github.com/chamoji/springapp
 
 ### Notes about the step-by-step Tutorial
 * In Chapter 4, there is an extraneous `<beans>` tag in the `springapp-servlet.xml` snippet.
+
+![Error in Chapter 4 <beans> tag][ch4-err]
+
 * In Chapter 5, add these import statements in `JdbcProductTests.java` to resolve compilation errors:
 ```
       import org.springframework.test.AbstractTransactionalDataSourceSpringContextTests;
       import springapp.domain.Product;
 ```
-
 
 ### Other Errors
 There are a few errors in the tutorial that might take quite a bit of time to debug. Please take a look at the following list to see if you are running into similar problems:
